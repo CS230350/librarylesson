@@ -1,0 +1,124 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+void problem1 (int a){
+cout << a+1;}
+
+
+void problem2 (int x, int y){
+int sum = x + y;    
+cout << sum;
+}
+
+void problem3 (int x){
+int seconds = x * 60;    
+cout << seconds << " " << "seconds"; 
+}
+
+void problem4 (int asos, int balandlik){
+cout << asos * balandlik / 2;    
+}
+
+
+void problem5 (int age){
+cout << age * 365;
+}
+
+
+
+void problem6 (int a){
+cout << a*a*a;    
+ }
+
+
+void problem7 (){
+int arr[] = {1,2,3,4,5};
+cout << arr[0];
+}
+
+
+
+void problem8 (int x, int y){
+cout << x * y;
+}
+
+void problem9 (int hour){
+    
+cout << hour * 3600;
+}
+
+
+void problem10 (int tomon1, int tomon2){
+    
+cout << (tomon1 + tomon2)-1;
+}
+
+
+void problem11 (int son1, int son2){
+if(son1==son2) {
+cout << 0; }   
+else {cout << son1;}
+}
+
+
+void problem12 (int a, int b){
+cout << a*b; 
+}
+
+
+void problem13 (string word){
+    cout<<"something "<< word;
+}
+
+
+void problem14 (int x){
+    if (x<=0){
+        cout << "true";
+    }
+    else cout << "false";
+}
+
+
+void problem15 (int n){
+    cout << (n-2)*180;
+    
+}
+
+
+void problem16 (int x, int y){
+int sum = x*2+y*3;
+cout << sum;
+}
+
+
+void problem17 (string word){
+ 
+cout << word << " " << "Edabit";   
+    
+}
+
+
+
+int main() {
+
+// problem1(6);
+// problem2(7,5);
+// problem3(5);
+// problem4 (5,6);
+// problem5 (65);
+// problem6 (10);
+// problem7 ();
+// problem8 (20,8);
+// problem9 (5);
+// problem10 (50,40);
+// problem11 (8,8);
+// problem12 (6,7);
+// problem13 ("dfdf");
+// problem14 (-4);
+// problem15 (5);
+// problem16 (5,7);
+// problem17 ("Albert");
+    return 0;
+}
+
